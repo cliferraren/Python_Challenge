@@ -27,7 +27,7 @@ with open(file_to_load) as election_data:
     for row in reader:
 
         # Run the loader animation
-        print(". ", end=""),
+        print(". ", end="")
 
         # Add to the total vote count
         total_votes = total_votes + 1
